@@ -17,32 +17,31 @@ This repository contains two versions of the project:
 
 npm install -g typescript ts-node
 
-##Getting Started
-Install MongoDB on your local machine, or use other services such as mLab or Compose.
-Replace the mongoURL with your MongoDB address in lib/app.ts.
-Clone this repository:
-git clone <your-repository-url> .
-Install the dependencies:
-sh
-Copy code
-npm install
-Start the server
-Run in development mode:
-sh
-Copy code
-npm run dev
-Run in production mode:
-sh
-Copy code
-npm run prod
-Testing
-Testing over HTTP (tag v1.0.0)
-The default URL is: http://localhost:3000
-GET all contacts
-Send a GET request to:
+## Getting Started
+- Install MongoDB on your local machine, or use other services such as mLab or Compose.
+- Replace the mongoURL with your MongoDB address in lib/app.ts.
+- **Clone this repository:**
+git clone <your-repository-url>
 
-bash
-Copy code
+- **Install the dependencies:**
+  
+npm install
+
+## Start the server
+
+- **Run in development mode:**
+  
+npm run dev
+
+- **Run in production mode:**
+  
+npm run prod
+
+## Testing
+**Testing over HTTP (tag v1.0.0)**
+- The default URL is: http://localhost:3000
+**GET all contacts**
 http://localhost:3000/contact/
-Testing over HTTPS (tag v2.0.0)
-The default URL is: https://localhost:3000
+
+## Testing over HTTPS (tag v2.0.0)
+- The default URL is: https://localhost:3000
